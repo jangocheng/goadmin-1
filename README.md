@@ -33,7 +33,7 @@ Go开发后台管理系统，将前端资源一起编译，是不是很酷？！
 - 在 `assets` 与 `views` 目录下分别执行 `rice embed-go`
 - 最后 `go build -o goadmin`
 
-> 注意⚠️：
+> ⚠️ 注意
 >
 > 项目使用了 [gracehttp](https://github.com/facebookarchive/grace)，Windows下不支持，如需编译 Windows 版本，建议去掉
 >
