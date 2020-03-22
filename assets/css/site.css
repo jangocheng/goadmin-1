@@ -1,0 +1,159 @@
+/* element */
+.el-header {
+    line-height: 60px;
+    border-bottom: 1px solid #EBEEF5;
+}
+
+.el-aside {
+    width: auto !important;
+    height: 100%;
+    background-color: #324057;
+}
+
+.el-menu {
+    width: 200px;
+    border: none;
+}
+
+.el-menu-item {
+    padding: 0 !important;
+}
+
+.el-menu-item a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+    color: #BFCBD9;
+}
+
+.el-menu-item a i {
+    color: #BFCBD9;
+}
+
+.el-menu-item.is-active a {
+    color: #409EFF;
+}
+
+.el-menu-item:hover, .el-submenu__title:hover {
+    background-color: #48576A !important;
+}
+
+.el-menu-item-group__title {
+    padding: 0 !important;
+}
+
+.el-menu--inline .el-menu-item {
+    background-color: #1F2D3D !important;
+}
+
+.el-menu--inline .el-menu-item:hover {
+    background-color: #48576A !important;
+}
+
+.el-menu--inline .el-menu-item a {
+    padding: 0 20px 0 40px;
+}
+
+.el-menu--collapse {
+    width: 56px;
+}
+
+.el-breadcrumb {
+    display: inline-block;
+}
+
+.el-breadcrumb__inner a, .el-breadcrumb__inner.is-link {
+    font-weight: normal;
+    color: #409EFF;
+}
+
+.el-breadcrumb__separator {
+    color: #409EFF;
+}
+
+.el-form-item__label {
+    font-weight: normal;
+}
+
+.el-select {
+    width: 100%;
+}
+
+.el-table thead {
+    color: #409EFF;
+}
+
+.el-table .cell {
+    white-space: nowrap;
+}
+
+.el-pagination {
+    padding: 15px 0px;
+    text-align: center;
+}
+
+.el-button.is-round {
+    border-radius: 20px !important;
+}
+
+.el-button.is-circle {
+    border-radius: 50% !important;
+}
+
+.alert-tags {
+    height: 40px;
+    padding: 5px 0 0 4px;
+    margin-bottom: 0;
+    background-color: #FFF;
+}
+
+.tag-box .el-tag {
+    vertical-align: top;
+}
+
+.tag-box .el-tag + .el-tag {
+    margin-left: 4px;
+}
+
+.el-dialog__body {
+    font-size: inherit;
+}
+
+.el-form--label-top .el-form-item__label {
+    padding: 0;
+    line-height: inherit;
+    color: #409EFF;
+}
+
+/* bootstrap */
+a:hover {
+    text-decoration: none;
+}
+
+.menu-toggle {
+    display: inline-block;
+}
+
+.table-card {
+    border: none;
+}
+
+.table-card .card-header {
+    background-color: #FFF;
+    padding: 0;
+    border: none;
+    font-size: 20px;
+}
+
+.table-card .card-body {
+    padding: 0;
+}
+
+.table-card .card-footer {
+    padding: 0;
+    border: none;
+    background-color: #FFF;
+}
+
+/* custom */

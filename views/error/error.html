@@ -1,0 +1,15 @@
+{{ define "css" }}{{ end }}
+
+{{ define "content" }}
+<div class="mt-5 text-danger text-center">
+    <h1 class="font-weight-bold" style="font-size: 9rem;">{{ .code }}</h1>
+    <h3 class="mt-2">{{ .msg }}</h3>
+    <a href="javascript:window.history.back();" class="btn btn-primary mt-5"><i class="fa fa-arrow-left"></i> 返回</a>
+</div>
+{{ end }}
+
+{{ define "js" }}{{ end }}
+
+ {{ define "error" }}
+	{{ template "normal" . }}
+ {{ end }}

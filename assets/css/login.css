@@ -1,0 +1,21 @@
+.canvas {
+    position: fixed;
+}
+
+.login-card {
+    width: 100%;
+    margin-top: 12rem;
+}
+
+.has-feedback {
+    position: relative;
+}
+
+.captcha {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 120px !important;
+    border: 1px solid #DCDFE6;
+    cursor: pointer;
+}
