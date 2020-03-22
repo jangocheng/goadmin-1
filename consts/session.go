@@ -1,6 +1,6 @@
 package consts
 
 const (
-	SessionID       = "goweb_identity"
+	SessionID       = "goadmin_identity"
 	SessionDuration = 12 * 3600
 )
